@@ -2,7 +2,6 @@
 #include <server_scaner.hpp>
 #include <server_handl.hpp>
 #include <iostream>
-#include <boo
 
 int main(int argc, char const *argv[])
 {
@@ -12,6 +11,7 @@ int main(int argc, char const *argv[])
     try
     {
         Server srv;
+	std::cout << "SVN edit" << std::endl;
     }
     catch (const std::exception&)
     {
